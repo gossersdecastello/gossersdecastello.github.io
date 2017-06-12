@@ -8,7 +8,7 @@
     <meta name="author" content="">
 <!--     <link rel="shortcut icon" href="../../assets/ico/favicon.ico"> -->
 
-    <title>IV Carrera de Montaña Villamalur - Sierra Espadán</title>
+    <title>Gossers de Castelló</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -16,51 +16,7 @@
     <!-- Custom styles for this template -->
     <link href="navbar-fixed-top.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  <style type='text/css'>
-	.masthead img{
-		width:100%;
-	 }
-  </style>
-    <style>
-      html, body, #map-canvas {
-        height: 100%;
-        margin: 0px;
-        padding: 0px
-      }
-    </style>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-    <script>
-function initialize() {
-  console.log('This would be the main JS file.');
-  var villamalur = new google.maps.LatLng(39.964491,-0.395256);
-  var mapOptions = {
-    zoom: 10,
-    center: villamalur,
-	mapTypeId: 'satellite'
-  }
-
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-  var ctaLayer = new google.maps.KmlLayer({
-    url: 'http://www.eventosvillamalur.es/files/rutacolores.kmz'
-  });
-  ctaLayer.setMap(map);
-  
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-
-    </script>
-  <style>
-	        #map-canvas { height: 440px }
-    </style>
   </head>
 
   <body>
@@ -81,11 +37,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="ruta.html">Ruta</a></li>
-            <li><a href="inscripcion.html">Inscripción</a></li>
-            <li ><a href="instalaciones.html">Instalaciones</a></li>
-            <li ><a href="reglamento.html">Reglamento</a></li>
-            <li><a href="llegar.html">Cómo llegar</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="galeria.html">Galería</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="contacto.html">Contacto</a></li>
@@ -102,17 +55,15 @@ google.maps.event.addDomListener(window, 'load', initialize);
 		      <!-- Main component for a primary marketing message or call to action -->
 		      <div class="jumbotron">
 
-			  <p> A continuación os mostramos la <a href="https://es.wikiloc.com/wikiloc/view.do?id=16958301">ruta</a> de la cuarta edición de la carrera. También esta disponible el <a href="files/iv_carreravillamalur.gpx">fichero GPX </a> para GPS.</p>
-			  <iframe frameBorder="0" src="http://es.wikiloc.com/wikiloc/spatialArtifacts.do?event=view&id=16958301&measures=on&title=on&near=on&images=off&maptype=S" width="700" height="500"></iframe>
-
-			  <!--div id="map-canvas"></div-->
-			  
+			  <p> A continuación podeis pulsar para ver las fotografías de las últimas reuniones.
+				
+			      <h2>Comida de creación</h2>
+			      <h2>Concentración Alborache</h2>
+			      <h2>Cena Atzaneta</h2>
+			      <h2>Feria Villanueva de Alcolea</h2>
 			  <br/>
-			  <p> Este es el perfil de elevación con los avituallamientos de la edición 2016 (ubicados en el mismo lugar): </p>
-			  <div id="img"><img src="images/perfil_avit.png" alt="Perfil de elevación de la ruta con los avituallamientos." width="700">
-			  
-			  </div>
-			  <!--p> Y aquí lo mostramos en más detalle: </p>
+				  
+				  <!--p> Y aquí lo mostramos en más detalle: </p>
 			  <div id="img2"><img src="images/perfil2.jpg" alt="Perfil de elevación de la ruta" width="700">
 			  
 			  </div-->
@@ -124,16 +75,16 @@ google.maps.event.addDomListener(window, 'load', initialize);
 		      
 			<div class="col-md-3">
        			<div class="masthead">
-					<img src="images/bannerLateral.png"/>
+					<!--img src="images/bannerLateral.png"/-->
 				</div>
        			<div class="masthead">
-					<img src="images/bannerColab.png"/>
+					<!--img src="images/bannerColab.png"/-->
 				</div>
 			</div>
 		</div>			
       <!-- Site footer -->
       <div class="footer">
-        <p>&copy; Comisión Villamalur 2017</p>
+        <p>&copy; Gossers de Castelló 2017</p>
       </div>
 
     </div> <!-- /container -->
